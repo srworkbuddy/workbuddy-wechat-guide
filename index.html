@@ -1203,8 +1203,8 @@
           <li>在企微「API 配置」区域选择<strong>「使用长连接」</strong></li>
           <li>复制 <code>Bot ID</code></li>
           <li>点击「点击获取」获取 <code>Secret</code></li>
-          <li>打开 WorkBuddy → 右上角头像 → <strong>Claw 设置</strong></li>
-          <li>在「集成 (BETA)」找到 <strong>「企微 AIBot 集成」</strong> → 点击「配置」</li>
+          <li>打开 WorkBuddy → 左下角「我的」→「设置」→「助理设置」</li>
+          <li>在「助理设置」找到 <strong>「企业微信集成」</strong> → 点击「配置」</li>
           <li>选择 <strong>「WebSocket 长连接」</strong>，填入 Bot ID 和 Secret</li>
           <li>点击<strong>「注册」</strong>完成绑定</li>
         </ol>
@@ -1250,20 +1250,20 @@
             <div class="mock-app" style="max-width:100%;">
               <div class="mock-app-titlebar">
                 <div class="dots"><span></span><span></span><span></span></div>
-                WorkBuddy - Claw 设置
+                WorkBuddy - 设置
               </div>
               <div class="mock-app-body">
                 <div class="wb-settings-layout" style="min-height:170px;">
                   <div class="wb-settings-nav">
                     <div class="wb-settings-nav-item">通用</div>
-                    <div class="wb-settings-nav-item active">集成 (BETA)</div>
+                    <div class="wb-settings-nav-item active">助理设置</div>
                     <div class="wb-settings-nav-item">关于</div>
                   </div>
                   <div class="wb-settings-content">
                     <div class="wb-integration-card">
                       <div class="wb-integration-icon wecom">💼</div>
                       <div class="wb-integration-info">
-                        <div class="name">企微 AIBot 集成</div>
+                        <div class="name">企业微信集成</div>
                         <div class="desc">WebSocket 长连接 · 已注册</div>
                       </div>
                       <span class="wb-integration-btn config">配置</span>
@@ -1289,7 +1289,7 @@
         <ol class="sub-steps">
           <li>在企微「API 配置」区域选择<strong>「使用 URL 回调」</strong></li>
           <li>点击 Token 和 Encoding-AESKey 右侧的<strong>「随机获取」</strong>并保存</li>
-          <li>打开 WorkBuddy → Claw 设置 → 企微 AIBot 集成 → 配置</li>
+          <li>打开 WorkBuddy → 设置 → 助理设置 → 企业微信集成 → 配置</li>
           <li>切换到<strong>「使用 URL 回调」</strong>，填入 Token 和 Encoding-AESKey</li>
           <li>点击「注册」，复制生成的 <strong>Webhook URL</strong></li>
           <li>回到企微创建页面，将 Webhook URL 粘贴到 <strong>URL 输入框</strong></li>
@@ -1423,9 +1423,9 @@
         <span class="step-title">接入流程总览</span>
       </div>
       <div class="flow-visual">
-        <span class="flow-node blue">Claw 设置</span>
+        <span class="flow-node blue">助理设置</span>
         <span class="flow-arrow">→</span>
-        <span class="flow-node blue">微信 ClawBot 配置</span>
+        <span class="flow-node blue">微信助理集成</span>
         <span class="flow-arrow">→</span>
         <span class="flow-node blue">生成二维码</span>
         <span class="flow-arrow">→</span>
@@ -1464,7 +1464,7 @@
                     <span>⚙️</span> 通用设置
                   </div>
                   <div style="padding:8px 14px; font-size:12px; color:var(--gray-500); display:flex; align-items:center; gap:6px;">
-                    <span>🐾</span> Claw 设置
+                    <span>🐾</span> 助理设置
                   </div>
                   <div style="padding:8px 14px; font-size:12px; color:var(--primary); font-weight:600; background:#EEF1FE; border-left:3px solid #4F6EF7; display:flex; align-items:center; gap:6px;">
                     <span>🤖</span> 助理设置
@@ -1487,7 +1487,7 @@
                     <div class="wb-integration-card" style="margin-bottom:8px;">
                       <div class="wb-integration-icon wecom">💼</div>
                       <div class="wb-integration-info">
-                        <div class="name">企微 AIBot 集成</div>
+                        <div class="name">企业微信集成</div>
                         <div class="desc">已配置</div>
                       </div>
                       <span class="wb-integration-btn config">管理</span>
@@ -1513,11 +1513,11 @@
     <div class="step-card">
       <div class="step-header">
         <span class="step-number">2</span>
-        <span class="step-title">找到微信 ClawBot 集成 → 生成二维码</span>
+        <span class="step-title">找到微信助理集成 → 生成二维码</span>
       </div>
       <div class="step-body">
         <ol class="sub-steps">
-          <li>在集成列表中查找 <strong>「微信 ClawBot 集成」</strong></li>
+          <li>在集成列表中查找 <strong>「微信助理集成」</strong></li>
           <li>点击右侧的 <strong>「配置」</strong>按钮</li>
           <li>等待二维码生成（按钮会短暂显示「绑定中...」）</li>
         </ol>
@@ -1528,7 +1528,7 @@
           <div class="mock-app" style="max-width:340px;">
             <div class="mock-app-titlebar">
               <div class="dots"><span></span><span></span><span></span></div>
-              微信 ClawBot 集成
+              微信助理集成
             </div>
             <div class="mock-app-body" style="text-align:center; padding:20px;">
               <div style="font-size:14px; font-weight:600; color:var(--gray-900); margin-bottom:6px;">微信扫码绑定</div>
@@ -1600,15 +1600,15 @@
             <div class="mock-app" style="max-width:100%;">
               <div class="mock-app-titlebar">
                 <div class="dots"><span></span><span></span><span></span></div>
-                WorkBuddy - Claw 设置
+                WorkBuddy - 设置
               </div>
               <div class="mock-app-body">
                 <div style="padding:16px; min-height:220px;">
-                  <div style="font-size:13px; font-weight:600; margin-bottom:12px;">集成 (BETA)</div>
+                  <div style="font-size:13px; font-weight:600; margin-bottom:12px;">助理设置</div>
                   <div class="wb-integration-card">
                     <div class="wb-integration-icon wecom">💼</div>
                     <div class="wb-integration-info">
-                      <div class="name">企微 AIBot 集成</div>
+                      <div class="name">企业微信集成</div>
                       <div class="desc">未配置</div>
                     </div>
                     <span class="wb-integration-btn config">配置</span>
@@ -1616,7 +1616,7 @@
                   <div class="wb-integration-card" style="border-color:var(--green); background:var(--green-light);">
                     <div class="wb-integration-icon wechat">💬</div>
                     <div class="wb-integration-info">
-                      <div class="name" style="color:var(--green);">微信 ClawBot 集成</div>
+                      <div class="name" style="color:var(--green);">微信助理集成</div>
                       <div class="desc" style="color:var(--green);">✅ 已绑定</div>
                     </div>
                     <span class="wb-integration-btn bound">解绑</span>
@@ -1716,7 +1716,7 @@
           <ol>
             <li>确认电脑 WorkBuddy 仍在运行</li>
             <li>检查 Claw 服务未关闭</li>
-            <li>返回 Claw 设置验证绑定状态</li>
+            <li>返回助理设置验证绑定状态</li>
             <li>必要时解绑后重新扫码绑定</li>
           </ol>
         </div>
@@ -1724,7 +1724,7 @@
       <div class="faq-item">
         <div class="faq-q">🔍 如何更换绑定的微信账号？</div>
         <div class="faq-a">
-          在 Claw 设置的微信 ClawBot 集成卡片中点击<strong>「解绑」</strong>，然后重新扫码绑定新账号即可。
+          在助理设置的微信助理集成卡片中点击<strong>「解绑」</strong>，然后重新扫码绑定新账号即可。
         </div>
       </div>
     </div>
